@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChronoFix Mobile Repairing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #6a1b9a;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #6a1b9a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #4a148c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>ChronoFix Mobile Repairing</h2>
+    <p>Welcome! Submit your phone repair request below:</p>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required><label for="phone">Phone Model:</label>
+  <input type="text" id="phone" name="phone" placeholder="e.g. Infinix Hot 10" required>
+
+  <label for="issue">Describe the issue:</label>
+  <textarea id="issue" name="issue" placeholder="Tell us what’s wrong" rows="4" required></textarea>
+
+  <label for="location">Your Location:</label>
+  <input type="text" id="location" name="location" placeholder="e.g. Kano City" required>
+
+  <button type="submit">Submit Request</button>
+</form>
+
+  </div>
+</body>
+</html>
